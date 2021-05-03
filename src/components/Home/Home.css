@@ -1,0 +1,54 @@
+* {
+    background-color: #555466;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(50deg, #2c2f36, #2b3e6b);
+}
+
+.fontIcon {
+    background: transparent;
+}
+
+.homeimg {
+    width: 100%;
+    height: 300px;
+}
+
+.cardsection {
+    margin: 30px;
+    padding: 10px;
+    /* background-color: white; */
+    background-image: linear-gradient( -50deg, #0c2844, #212122);
+    box-shadow: 3px 2px 5px black;
+}
+
+.cardsection img {
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    
+}
+
+.cardsection strong, img, h3, h5 {
+    background-color: white;
+    color: white;
+    background: transparent;
+}
+
+h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    background-color: #38373700;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        position: absolute;
+        top: 80px;
+        left: 150px;
+        background-color: #38373700;
+        width: 120px;
+    }
+}

@@ -1,0 +1,89 @@
+.homeimg {
+    width: 100%;
+    height: 300px;
+    opacity: 0.2;
+}
+
+.head {
+    position: absolute;
+    top: 80px;
+    left: 680px;
+    background-color: #38373700;
+    height: 120px;
+    width: 150px;
+}
+
+.infoBox {
+    margin: 10px 70px;
+    padding: 10px 20px;
+    background-image: linear-gradient( -50deg, #16426e, #1f2021);
+    
+}
+
+.fontIcon {
+    background: transparent;
+}
+
+.clubTitle {
+    background: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.clubInfo {
+    background: transparent;
+    
+}
+
+.infoBox h3, p {
+    background: transparent;
+    color: white;
+}
+
+.description {
+    padding: 10px 30px;
+}
+
+.clubImg img {
+    height: 200px;
+    width: 350px;
+}
+
+.iconSet img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+@media (max-width: 480px) {
+    .infoBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .infoBox img {
+        width: 100%;
+        
+    }
+
+    .clubImg {
+        background: transparent;
+    }
+
+    .homeimg {
+        width: 100%;
+    }
+
+    .head {
+        position: absolute;
+        top: 80px;
+        left: 150px;
+        background-color: #38373700;
+        height: 80px;
+        width: 120px;
+    }
+}
